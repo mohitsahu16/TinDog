@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+/* sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+
+}
+
+/* navigation bar */
+.navbar {
+  margin-bottom: 3.5rem;
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.6rem;
+}
+
+.img1 {
+  width: 20%;
+  height: 88%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+.nav-item {
+  padding: 0 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.title-btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.icon-2 {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-2:hover {
+  color: #ff4c68
+}
+
+.features-head {
+  font-size: 1.5rem;
+}
+
+.features-para {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.pricing-card {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.pricing-text {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* media query */
+@media (max-width:992px) {
+  .img1 {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    height: 100%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* call to action  */
+#cta {
+  padding: 4% 20%;
+}
+
+.cta-text {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* footer */
+#footer {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5rem;
+  padding-top: 8%;
+  padding-bottom: 7%;
+  font-weight: 100;
+}
+
+.social-icon {
+  margin: 2% 0.75%;
+}
+
+.social-icon:hover {
+  color: grey;
+}
